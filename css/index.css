@@ -265,8 +265,7 @@ footer {
   .home .walk {
     flex-wrap: wrap;
     margin-top: 20px;
-    padding-top: 22px;
-    padding-bottom: 17px;
+    padding: 0px 2px;
   }
 }
 .home .walk .walk-text {
@@ -275,7 +274,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
-    margin-top: 16px;
+    padding: 0px 15px 15px 15px;
   }
 }
 .home .walk .walk-text h3 {
@@ -320,6 +319,12 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+  margin: 20px 4.5%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    margin: 20px 4.5%;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
