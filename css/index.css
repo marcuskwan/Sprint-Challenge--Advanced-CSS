@@ -174,6 +174,7 @@ p {
   background-color: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
   margin-top: 15px;
+  padding-bottom: 5px;
 }
 .top h1 {
   font-size: 4rem;
@@ -188,6 +189,8 @@ p {
 .top nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
+  padding: 0px 20px;
 }
 @media (max-width: 500px) {
   .top nav a {
@@ -233,6 +236,7 @@ footer {
 @media (max-width: 500px) {
   .home .space-images .blast {
     width: 100%;
+    margin: 20px 4.5%;
   }
   .home .space-images .sky {
     display: none;
@@ -260,6 +264,9 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     flex-wrap: wrap;
+    margin-top: 20px;
+    padding-top: 22px;
+    padding-bottom: 17px;
   }
 }
 .home .walk .walk-text {
@@ -268,6 +275,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    margin-top: 16px;
   }
 }
 .home .walk .walk-text h3 {
@@ -276,14 +284,19 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text p {
+    margin-bottom: 23px;
+  }
+}
 .home .walk .walk-text .btn {
-  width: 30%;
+  width: 29%;
   border-radius: 8px;
   text-align: center;
   color: white;
   font-size: 1.8rem;
   background-color: #22283A;
-  padding: 8px 0px;
+  padding: 8.5px 0px;
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
