@@ -274,7 +274,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
-    padding: 0px 15px 15px 15px;
+    padding: 0px 22px 15px 22px;
   }
 }
 .home .walk .walk-text h3 {
@@ -289,7 +289,7 @@ footer {
   }
 }
 .home .walk .walk-text .btn {
-  width: 29%;
+  width: 30%;
   border-radius: 8px;
   text-align: center;
   color: white;
@@ -319,7 +319,7 @@ footer {
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
-  margin: 20px 4.5%;
+  margin: 0px 4.5% 20px 4.5%;
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
