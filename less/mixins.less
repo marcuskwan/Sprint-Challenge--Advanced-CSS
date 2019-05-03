@@ -14,16 +14,18 @@
 
 // Paramixin button style
 
-.btn-style(@radius,@text-align) {
-    width: 30%;
+.btn-style(@radius,@text-align,@width,@padding) {
+    width: @width;
     border-radius: @radius;
     text-align: @text-align;
     color: white;
     font-size: 1.8rem;
     background-color: @btn-bg-color;
-    padding: 8px 0px;
+    padding: @padding;
     &:hover {
         background-color: white;
         color: @btn-bg-color;
       }
 }
+
+//
