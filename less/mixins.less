@@ -1,1 +1,31 @@
 // Mixins Here
+
+// border mixin for header img 
+
+.border {
+    border-radius: 5px;
+}
+
+// margin bottom mixin for footer 
+
+.margin-footer {
+    margin-bottom: 2.5%;
+}
+
+// Paramixin button style
+
+.btn-style(@radius,@text-align,@width,@padding) {
+    width: @width;
+    border-radius: @radius;
+    text-align: @text-align;
+    color: white;
+    font-size: 1.8rem;
+    background-color: @btn-bg-color;
+    padding: @padding;
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+      }
+}
+
+//
